@@ -88,5 +88,5 @@ $arrayF2 = $objTorneo->calcularPremioPartido($objPartidoFutbol2);
 $arrayF3 = $objTorneo->calcularPremioPartido($objPartidoFutbol3);
 print_r($arrayF3); //3492500
 
-//echo $objTorneo; //funciona
+//echo $objTorneo; //funciona todo, al parecer...
 ?>

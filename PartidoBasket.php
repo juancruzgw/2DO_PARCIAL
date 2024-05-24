@@ -35,7 +35,7 @@ class PartidoBasket extends Partido {
     }
     public function coeficientePartido()
     {
-        $coeficiente = parent::coeficientepartido(); // REDefinio y agrego cuenta x infracciones
+        $coeficiente = parent::coeficientepartido(); // REDefino y agrego cuenta x infracciones
         $coeficiente -= 0.75 * $this->getCantidadInfracciones();
         return $coeficiente;
     }
